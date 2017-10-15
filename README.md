@@ -1,7 +1,7 @@
 # Payment: Using python framework Django
 to start your project some requrements
 1st make a folder where you write your code
-** * ** Paytm doc http://paywithpaytm.com/developer/paytm_api_doc?target=transaction-request-api
+1. Paytm doc http://paywithpaytm.com/developer/paytm_api_doc?target=transaction-request-api
 
 # Installation : Setup Django
 What you need for a basic dev environment:
