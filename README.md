@@ -14,9 +14,9 @@ What you need for a basic dev environment:
 
 # Usage Description
 The **recharge** folder has the following files
-views.py : it is interface function that takes a Web request and returns a Web response. This file will initiate the sample test transaction through the Paytm gateway. Paytm parameters need to be added in this file.
-urls.py : A URL is simply a web address. You can see a URL every time you visit a website – it is visible in your browser's address bar
-Checksum.py : This file has the logic for checksum generation and verification.
+1. views.py : it is interface function that takes a Web request and returns a Web response. This file will initiate the sample test transaction through the Paytm gateway. Paytm parameters need to be added in this file.
+2. urls.py : A URL is simply a web address. You can see a URL every time you visit a website – it is visible in your browser's address bar
+3. Checksum.py : This file has the logic for checksum generation and verification.
 connectionutils.py : This file has the logic for processing PG response after the transaction processing.
 
 # Configure
