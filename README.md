@@ -23,5 +23,5 @@ connectionutils.py : This file has the logic for processing PG response after th
 1 .Copy the recharge folder into the django project of your machine and add in setting.py of your django project "INSTALLED_APPS"
 
 # Some more installation
-requests : Requests allows you to send organic, grass-fed HTTP/1.1 requests, without the need for manual labor. 
-Crypto.Cipher : This is a collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption algorithms (AES, DES, RSA, ElGamal, etc.). The package is structured to make adding new modules easy.
+1. requests : Requests allows you to send organic, grass-fed HTTP/1.1 requests, without the need for manual labor. 
+2. Crypto.Cipher : This is a collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption algorithms (AES, DES, RSA, ElGamal, etc.). The package is structured to make adding new modules easy.
