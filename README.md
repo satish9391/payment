@@ -1,4 +1,4 @@
-# payment: Using python framework Django
+# Payment: Using python framework Django
 to start your project some requrements
 1st make a folder where you write your code
 
