@@ -21,8 +21,7 @@ The **recharge** folder has the following files
 connectionutils.py : This file has the logic for processing PG response after the transaction processing.
 
 # Configure
-1 .Copy the recharge folder into the django project of your machine and add in setting.py of your django project "INSTALLED_APPS"
-
+1. Copy the recharge folder into the django project of your machine and add in setting.py of your django project "INSTALLED_APPS"
 2. to add **url(r'^recharge/', include('recharge.urls'))** in your django project urls.py file
 
 # Some more installation
