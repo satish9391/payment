@@ -21,6 +21,7 @@ connectionutils.py : This file has the logic for processing PG response after th
 
 # Configure
 1 .Copy the recharge folder into the django project of your machine and add in setting.py of your django project "INSTALLED_APPS"
+2. to add **url(r'^recharge/', include('recharge.urls'))** in your django project urls.py file
 
 # Some more installation
 1. requests : Requests allows you to send organic, grass-fed HTTP/1.1 requests, without the need for manual labor. 
