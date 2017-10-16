@@ -1,5 +1,4 @@
 import requests
-import cgi
 import Checksum
 import requests
 import base64
