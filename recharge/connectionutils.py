@@ -6,7 +6,7 @@ import json
 
 
 def get_response(link, post_object):
-	result = requests.post("https://pguat.paytm.com/oltp/HANDLER_INTERNAL/getTxnStatus?JsonData=%s", % json.dumps(post_object))
+	result = requests.post("https://pguat.paytm.com/oltp-web/processTransaction%s", % json.dumps(post_object))
 	print result.json()
 	return get_values_from_response(result)
 
